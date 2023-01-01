@@ -42,6 +42,13 @@ class Logger {
       Chalk.yellow(message, ...optionalParams)
     );
   }
+
+  static warn(message: string, type?: string, ...optionalParams: any[]) {
+    console.log(
+      this.getDateString(type),
+      Chalk.yellowBright(message, ...optionalParams)
+    );
+  }
 }
 
 export default Logger;

@@ -26,5 +26,8 @@ class Logger {
     static log(message, type, ...optionalParams) {
         console.log(this.getDateString(type), Chalk.yellow(message, ...optionalParams));
     }
+    static warn(message, type, ...optionalParams) {
+        console.log(this.getDateString(type), Chalk.yellowBright(message, ...optionalParams));
+    }
 }
 export default Logger;
