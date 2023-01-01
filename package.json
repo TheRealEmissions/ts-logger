@@ -18,5 +18,5 @@
   "resolutions": {
     "typescript": "^4.9.4"
   },
-  "types": "types/logger/Logger.d.ts"
+  "types": "out/types/Logger.d.ts"
 }
