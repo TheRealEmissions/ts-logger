@@ -51,4 +51,6 @@ class Logger {
   }
 }
 
+console.log();
+
 export default Logger;
